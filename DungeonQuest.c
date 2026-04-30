@@ -149,6 +149,7 @@ void bestiary_insert_at(Enemy **head, const char *name, int level, int pos) {
         }
         nuevo->next = cur->next;
         cur->next = nuevo;
+        
     }
 }
 
@@ -322,4 +323,8 @@ int main(void) {
     printf("  Fin del laboratorio. Buen trabajo!\n\n");
     return 0;
 }
+
+/* ============================================================
+ * EXTRA - Salon de la Fama 
+ * ============================================================ */
 
